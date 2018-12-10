@@ -1,4 +1,3 @@
-<style>
   *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -23,19 +22,22 @@ nav {
 }
 
 .restaurant-list {
+  width: 240px;
   padding-top: 50px;
   background-color: #ccc;
-  padding: 1em
-  box-sizing: border-box;
 }
 
-.restaurant-list h1 {
-  font-size: 16px;
-  font-weight: bold;
+.location {
+  background-color: silver;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  line-height: 1.3;
+  height: 70px;
 }
 
-.restaurant-list h3 {
-  font-size: 12px;
+.location:hover {
+   background-color: gray;
 }
 
 .arrow {
@@ -43,31 +45,15 @@ nav {
   height: auto;
 }
 
-.location {
-  background-color: silver;
-  box-sizing: border-box;
-  display: inline-block;
-  width: 100%;
-  padding-left: 5%;
-  padding-top: 0%;
-  border-bottom: 1px solid #000000;
-  margin-top: 0%;
-  line-height: 1.3;
+.content {
+ float: left;
 }
 
-.location-arrow {
-  display: inline-block;
+h1 {
+  font-size: 16px;
+  font-weight: bold;
 }
 
-div.restaurant-list {
-    background-color: inherit;
-    width: 100%
-    height:auto;
-    box-sizing: border-box;
-  }
-
-div.location:hover {
-   background-color: gray;
+h3 {
+  font-size: 12px;
 }
-
-</style>
